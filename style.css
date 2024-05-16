@@ -1,0 +1,106 @@
+body {
+    font-family: 'Quicksand', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    height: 900px;
+    width: 1270px;
+    height: 833px;
+    left: 40px;
+    background: #FFFFFF;
+}
+h1,
+h2 {
+    margin: 0;
+    padding: 8px;
+}
+
+main {
+    padding: 0px 60px;
+    margin: 20px 60px;
+}
+.title h2 {
+    width: max-content;
+    background-color: bisque;
+    border-radius: 100%;
+    color: #000000cf;
+}
+
+p {
+    font-weight: bolder;
+    font-size: 18px;
+    color: #363636d9;
+}
+
+.center {
+    position: absolute;
+    width: 749px;
+    height: 121px;
+    left: 314px;
+    top: 268px;
+    font-family: 'Quicksand', 'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+
+.dash {
+    position: absolute;
+    width: 348.47px;
+    height: 345px;
+    left: 496px;
+    top: 424px;
+    background: url(Dish.png);
+    border-radius: 174px;
+    background-size: cover;
+}
+
+.img-back {
+    position: absolute;
+    width: 1190.44px;
+    height: 558px;
+    left: calc(50% - 1190.44px/2 + 0.22px);
+    top: 62px;
+    background: url(background3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+ul,
+ol {
+    padding: 1px 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #363636d9;
+    width: 100%;
+}
+
+.icons {
+    margin: 50px 0px;
+    position: relative;
+    left: 32%;
+}
+
+.line {
+    border-bottom: 3px #36363649 solid;
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.dash {
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.dash:hover {
+    transform: rotate(180deg);
+}
